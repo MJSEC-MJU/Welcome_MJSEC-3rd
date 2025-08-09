@@ -21,9 +21,7 @@ def handle_http_exception(e):
 @app.route("/")
 def index():
     return '''
-HTTP응답코드 중 400번대를 발생시키면, 플래그가 출력됩니다. 해당 플래그를 구글 폼에 적어주세요.
-
-소스코드: https://github.com/MJSEC-MJU/Welcome_MJSEC-3rd
+HTTP응답코드 중 400번대를 발생시키면, 플래그가 출력됩니다. 해당 플래그를 구글 폼에 적어주세요.<br>소스코드: https://github.com/MJSEC-MJU/Welcome_MJSEC-3rd<br>힌트: 소스코드를 확인해보세요!
 '''
 
 
